@@ -2,13 +2,23 @@
 
 This repository contains code for AST-based code chunking that preserves syntactic structure and semantic boundaries. ASTChunk intelligently divides source code into meaningful chunks while respecting the Abstract Syntax Tree (AST) structure, making it ideal for code analysis, documentation generation, and machine learning applications.
 
-<!-- Add paper citation when available -->
-<!--
 This work is described in the following paper:  
->[Paper Title](paper_url)  
-> Author Names
+>[cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree](https://arxiv.org/abs/2506.15655)    
+> Yilin Zhang, Xinran Zhao, Zora Zhiruo Wang, Chenyang Yang, Jiayi Wei, Tongshuang Wu
+<!--
 > Conference/Journal, Year
+-->
 
+Bibtex for citations:
+```bibtex
+@misc{zhang-etal-2025-astchunk,
+      title={cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree}, 
+      author={Yilin Zhang and Xinran Zhao and Zora Zhiruo Wang and Chenyang Yang and Jiayi Wei and Tongshuang Wu},
+      year={2025},
+      url={https://arxiv.org/abs/2506.15655}, 
+}
+```
+<!--
 Bibtex for citations:
 ```bibtex
 @inproceedings{<citation_key>,
