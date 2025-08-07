@@ -9,6 +9,7 @@ import tree_sitter_typescript as tstypescript
 import tree_sitter_json as tsjson
 import tree_sitter_bash as tsbash
 import tree_sitter_yaml as tsyaml
+import tree_sitter_xml as tsxml
 import pyrsistent
  
 from astchunk.astnode import ASTNode
@@ -46,6 +47,8 @@ class ASTChunkBuilder():
             self.parser = ts.Parser(ts.Language(tsbash.language()))
         elif self.language == "yaml":
             self.parser = ts.Parser(ts.Language(tsyaml.language()))
+        elif self.language == "xml":
+            self.parser = ts.Parser(ts.Language(tsxml.language()))
         else:
             raise ValueError(f"Unsupported Programming Language: {self.language}!")
  
