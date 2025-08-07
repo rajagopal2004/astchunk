@@ -48,7 +48,7 @@ class ASTChunkBuilder():
         elif self.language == "yaml":
             self.parser = ts.Parser(ts.Language(tsyaml.language()))
         elif self.language == "xml":
-            self.parser = ts.Parser(ts.Language(tsxml.language()))
+            self.parser = ts.Parser(ts.Language(tsxml.language_xml()))
         else:
             raise ValueError(f"Unsupported Programming Language: {self.language}!")
  
