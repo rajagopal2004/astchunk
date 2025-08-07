@@ -96,7 +96,7 @@ class Calculator:
 # Initialize the chunk builder
 configs = {
     "max_chunk_size": 100,             # Maximum non-whitespace characters per chunk
-    "language": "python",              # Supported: python, java, csharp, typescript
+    "language": "python",              # Supported: python, java, csharp, typescript, yaml, bash, json
     "metadata_template": "default"     # Metadata format for output
 }
 chunk_builder = ASTChunkBuilder(**configs)
